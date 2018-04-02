@@ -1,0 +1,8 @@
+name: nanoid
+version: 0.0.1
+author: Rongjian Zhang <pd4d10@gmail.com>
+description: A secure, URL-friendly, unique string ID generator
+homepage: https://github.com/pd4d10/nanoid
+
+environment:
+  sdk: ">=2.0.0-dev.32.0 <2.0.0"
