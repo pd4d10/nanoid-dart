@@ -6,3 +6,6 @@ homepage: https://github.com/pd4d10/nanoid
 
 environment:
   sdk: ">=2.0.0-dev.32.0 <2.0.0"
+
+dev_dependencies:
+  test: ^0.12.33
