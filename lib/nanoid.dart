@@ -1,12 +1,7 @@
-import 'dart:math';
+import 'generate.dart';
 
-String url = '_~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-Random r = new Random.secure();
+var url = '_~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 String nanoid([int size = 21]) {
-  String id = '';
-  while (0 < size--) {
-    id += url[r.nextInt(64)];
-  }
-  return id;
+  return generate(url, size);
 }
