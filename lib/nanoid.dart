@@ -1,6 +1,5 @@
 import 'generate.dart';
-
-var url = '_~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+import 'url.dart';
 
 String nanoid([int size = 21]) {
   return generate(url, size);
