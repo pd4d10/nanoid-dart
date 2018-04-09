@@ -1,7 +1,7 @@
 # Nano ID
 
-![Travis](https://img.shields.io/travis/pd4d10/nanoid.svg)
-![Pub](https://img.shields.io/pub/v/nanoid.svg)
+[![Travis](https://img.shields.io/travis/pd4d10/nanoid.svg)](https://travis-ci.org/pd4d10/nanoid)
+[![Pub](https://img.shields.io/pub/v/nanoid.svg)](https://pub.dartlang.org/packages/nanoid)
 
 Dart implementation of [ai/nanoid](https://github.com/ai/nanoid)
 
