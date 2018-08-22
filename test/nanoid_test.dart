@@ -14,9 +14,9 @@ void main() {
   });
 
   test('has no collisions', () {
-    var COUNT = 100 * 1000;
+    var count = 100 * 1000;
     var used = {};
-    for (var i = 0; i < COUNT; i++) {
+    for (var i = 0; i < count; i++) {
       var id = nanoid();
       expect(used[id], equals(null));
       used[id] = true;
