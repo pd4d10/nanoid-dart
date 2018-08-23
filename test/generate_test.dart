@@ -7,13 +7,13 @@ void main() {
   });
 
   test('has flat distribution', () {
-    var COUNT = 100 * 1000;
-    var LENGTH = 5;
-    var ALPHABET = 'abcdefghijklmnopqrstuvwxyz';
+    var count = 100 * 1000;
+    var length = 5;
+    var alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
     var chars = {};
-    for (var i = 0; i < COUNT; i++) {
-      var id = generate(ALPHABET, LENGTH);
+    for (var i = 0; i < count; i++) {
+      var id = generate(alphabet, length);
       for (var j = 0; j < id.length; j++) {
         var char = id[j];
         if (chars[char] == null) chars[char] = 0;
@@ -22,7 +22,7 @@ void main() {
     }
 
     chars.forEach((k, _) {
-      var distribution = (chars[k] * ALPHABET.length) / (COUNT * LENGTH);
+      var distribution = (chars[k] * alphabet.length) / (count * length);
       expect(distribution, closeTo(1, 1));
     });
   });
