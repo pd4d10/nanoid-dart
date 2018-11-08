@@ -30,6 +30,27 @@ void main() {
 }
 ```
 
+### Async API
+
+```dart
+import 'package:nanoid/async/nanoid.dart';
+
+void main() async {
+  var id = await nanoid();
+  var custom_length_id = await nanoid(10);
+  // ...
+}
+```
+
+```dart
+import 'package:nanoid/async/generate.dart';
+
+void main() async {
+  var id = await generate('1234567890abcdef', 10);
+  // ...
+}
+```
+
 ### Non-secure API
 
 ```dart
