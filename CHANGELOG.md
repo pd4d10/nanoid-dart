@@ -22,3 +22,7 @@
 ## 0.0.6
 
 - Add nanoid v2 async API
+
+## 0.1.0
+
+- Maintenance issues and suggestions
