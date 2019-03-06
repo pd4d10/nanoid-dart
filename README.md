@@ -1,9 +1,13 @@
-# Nano ID
+# nanoid
 
 [![build](https://img.shields.io/travis/pd4d10/nanoid.svg)](https://travis-ci.org/pd4d10/nanoid)
 [![pub](https://img.shields.io/pub/v/nanoid.svg)](https://pub.dartlang.org/packages/nanoid)
 
 Dart implementation of [ai/nanoid](https://github.com/ai/nanoid)
+
+# Installation
+
+Add `nanoid` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
 
 ## Usage
 

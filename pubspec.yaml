@@ -1,7 +1,7 @@
 name: nanoid
 version: 0.0.6
 author: Rongjian Zhang <pd4d10@gmail.com>
-description: A tiny, secure, URL-friendly, unique string ID generator
+description: A tiny, secure, URL-friendly, unique string ID generator. Dart implementation of ai/nanoid
 homepage: https://github.com/pd4d10/nanoid
 
 environment:
