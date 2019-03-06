@@ -5,7 +5,7 @@
 
 Dart implementation of [ai/nanoid](https://github.com/ai/nanoid)
 
-# Installation
+## Installation
 
 Add `nanoid` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
 
