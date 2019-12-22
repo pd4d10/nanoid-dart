@@ -1,7 +1,7 @@
 # nanoid
 
-[![build](https://img.shields.io/travis/pd4d10/nanoid.svg)](https://travis-ci.org/pd4d10/nanoid)
 [![pub](https://img.shields.io/pub/v/nanoid.svg)](https://pub.dartlang.org/packages/nanoid)
+[![test](https://github.com/pd4d10/nanoid-dart/workflows/test/badge.svg)](https://github.com/pd4d10/nanoid-dart/actions?query=workflow:test)
 
 Dart implementation of [ai/nanoid](https://github.com/ai/nanoid)
 
