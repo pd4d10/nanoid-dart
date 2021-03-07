@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:nanoid/src/url_alphabet.dart';
 export 'package:nanoid/src/url_alphabet.dart';
 
-final _random = Random.secure();
+final _random = Random();
 
 String nanoid([int size = 21]) {
   return customAlphabet(urlAlphabet, size);

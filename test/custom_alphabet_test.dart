@@ -1,9 +1,9 @@
 import 'package:test/test.dart';
-import 'package:nanoid/generate.dart';
+import 'package:nanoid/nanoid.dart';
 
 void main() {
   test('has options', () {
-    expect(generate('a', 5), equals('aaaaa'));
+    expect(customAlphabet('a', 5), equals('aaaaa'));
   });
 
   test('has flat distribution', () {
@@ -13,7 +13,7 @@ void main() {
 
     var chars = {};
     for (var i = 0; i < count; i++) {
-      var id = generate(alphabet, length);
+      var id = customAlphabet(alphabet, length);
       for (var j = 0; j < id.length; j++) {
         var char = id[j];
         if (chars[char] == null) chars[char] = 0;

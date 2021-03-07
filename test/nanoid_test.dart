@@ -1,6 +1,5 @@
 import 'package:test/test.dart';
 import 'package:nanoid/nanoid.dart';
-import 'package:nanoid/url.dart';
 
 void main() {
   test('generates URL-friendly IDs', () {
@@ -8,7 +7,7 @@ void main() {
       var id = nanoid();
       expect(id.length, equals(21));
       for (var j = 0; j < id.length; j++) {
-        expect(url.contains(id[j]), equals(true));
+        expect(urlAlphabet.contains(id[j]), equals(true));
       }
     }
   });

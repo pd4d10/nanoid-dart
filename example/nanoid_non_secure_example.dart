@@ -1,4 +1,4 @@
-import 'package:nanoid/non_secure/nanoid.dart';
+import 'package:nanoid/non_secure.dart';
 
 void main() {
   var non_secure_id = nanoid();

@@ -4,11 +4,11 @@ export 'package:nanoid/src/url_alphabet.dart';
 
 final _random = Random.secure();
 
-String nanoid([int size = 21]) {
+Future<String> nanoid([int size = 21]) async {
   return customAlphabet(urlAlphabet, size);
 }
 
-String customAlphabet(String alphabet, int size) {
+Future<String> customAlphabet(String alphabet, int size) async {
   final len = alphabet.length;
   String id = '';
   while (0 < size--) {

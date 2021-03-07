@@ -1,4 +1,4 @@
-import 'package:nanoid/async/nanoid.dart';
+import 'package:nanoid/async.dart';
 
 void main() async {
   var id = await nanoid();
