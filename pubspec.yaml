@@ -1,5 +1,5 @@
 name: nanoid
-version: 0.2.0
+version: 1.0.0
 description: A tiny, secure, URL-friendly, unique string ID generator. Dart implementation of ai/nanoid
 homepage: https://github.com/pd4d10/nanoid-dart
 
