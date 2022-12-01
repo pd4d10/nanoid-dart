@@ -14,11 +14,11 @@ class Nanoid {
 
   final Random _random;
 
-  /// Create a nanoid generator that is secure by default
+  /// A nanoid generator that is secure by default
   Nanoid({this.alphabet = urlSafeAlphabet, Random? random})
       : _random = random ?? Random.secure();
 
-  /// Convenience caller for `nanoid` shorthand
+  /// Convenience caller for `nanoid()` shorthand
   String call([int size = 21]) => generate(size);
 
   /// Generate a nanoid with a given size
