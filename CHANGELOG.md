@@ -1,3 +1,12 @@
+# [2.0.0]
+
+- **BREAKING:** Custom alphabet
+  - Use `Nanoid(alphabet: a2z).generate(10)` instead of `customAlphabet(a2z, 10)`
+- **BREAKING:** Nonsecure
+  - Use `Nanoid(random: Random()).generate(10)` instead of importing `nanoid/non_secure.dart` and using `nanoid(10)`
+- **BREAKING:** Async
+  - async API has been removed
+
 # [1.0.0](https://github.com/pd4d10/nanoid-dart/compare/v0.1.0...v1.0.0) (2021-03-07)
 
 ### Features

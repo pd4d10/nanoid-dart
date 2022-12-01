@@ -7,5 +7,7 @@ jobs:
       image: google/dart:latest
     steps:
       - uses: actions/checkout@v2
-      - run: pub get
-      - run: pub run test
+      - run: dart pub get
+      - run: dart format . --set-exit-if-changed
+      - run: dart analyze
+      - run: dart test
