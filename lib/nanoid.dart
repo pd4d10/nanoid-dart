@@ -14,7 +14,7 @@ class Nanoid {
 
   final Random _random;
 
-  /// Create a secure nanoid generator
+  /// Create a nanoid generator that is secure by default
   Nanoid({this.alphabet = urlSafeAlphabet, Random? random})
       : _random = random ?? Random.secure();
 
