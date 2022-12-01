@@ -18,7 +18,7 @@ import 'package:nanoid/nanoid.dart';
 
 void main() {
   var id = nanoid();
-  var custom_length_id = nanoid(10);
+  var customLengthId = nanoid(10);
   // ...
 }
 ```
@@ -29,31 +29,21 @@ void main() {
 import 'package:nanoid/nanoid.dart';
 
 void main() {
-  var id = customAlphabet('1234567890abcdef', 10);
+  var hexNanoid = Nanoid(alphabet: '1234567890abcdef');
+  var id = hexNanoid(10);
   // ...
 }
 ```
 
-### Async API
-
-```dart
-import 'package:nanoid/async.dart';
-
-void main() async {
-  var id = await nanoid();
-  var custom_length_id = await nanoid(10);
-  // ...
-}
-```
-
-### Non-secure API
+### Non-secure
 
 ```dart
 import 'package:nanoid/non_secure.dart';
 
 void main() {
-  var non_secure_id = nanoid();
-  var custom_length_id = nanoid(10);
+  var nonsecureNanoid = Nanoid(random: Random());
+  var nonsecureId = nonsecureNanoid();
+  var customLengthId = nonsecureNanoid(10);
   // ...
 }
 ```
